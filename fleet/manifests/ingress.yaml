@@ -20,20 +20,20 @@ spec:
         pathType: ImplementationSpecific
         backend:
           service:
-            name: deviceshifu-rtsp-57a51a
+            name: deviceshifu-akri-rtsp-57a51a
             port:
               number: 80
       - path: /plc(/|$)(.*)
         pathType: ImplementationSpecific
         backend:
           service:
-            name: deviceshifu-s7-9f6dc8
+            name: deviceshifu-akri-s7-9f6dc8
             port:
               number: 80
       - path: /web(/|$)(.*)
         pathType: ImplementationSpecific
         backend:
           service:
-            name: sample-web-service
+            name: sample-web-akri-service
             port:
               number: 80

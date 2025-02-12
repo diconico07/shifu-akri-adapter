@@ -45,14 +45,4 @@ spec:
       - name: discovery-handlers
         hostPath:
           path: /var/lib/akri
----
-apiVersion: akri.sh/v0
-kind: Configuration
-metadata:
-  name: s7
-spec:
-  discoveryHandler: 
-    name: s7
-    discoveryDetails: "devices.test.edgenesis.io:40102"
-  brokerProperties:
-    DEVICESHIFU_CONFIG: "deviceshifu-s7-configmap"
+

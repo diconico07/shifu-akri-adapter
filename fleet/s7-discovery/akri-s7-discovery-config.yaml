@@ -1,0 +1,10 @@
+apiVersion: akri.sh/v0
+kind: Configuration
+metadata:
+  name: s7
+spec:
+  discoveryHandler: 
+    name: akri-s7
+    discoveryDetails: "192.168.1.35:102"
+  brokerProperties:
+    DEVICESHIFU_CONFIG: "deviceshifu-s7-configmap"
