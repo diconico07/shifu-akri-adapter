@@ -1,6 +1,7 @@
 namespace: devices
 helm:
-  chart: oci://registry.suse.com/edge/3.2/akri-chart:302.0.0_up0.12.20
+  chart: oci://registry.suse.com/edge/3.2/akri-chart
+  version: 302.0.0+up0.12.20
   values:
     custom:
       discovery:
