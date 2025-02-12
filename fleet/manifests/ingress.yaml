@@ -13,7 +13,7 @@ spec:
         pathType: ImplementationSpecific
         backend:
           service:
-            name: deviceshifu-akri-opcua-led-773cc7
+            name: deviceshifu-akri-opcua-led-8ae912
             port:
               number: 80
       - path: /camera(/|$)(.*)
