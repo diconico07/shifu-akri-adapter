@@ -20,7 +20,7 @@ spec:
         pathType: ImplementationSpecific
         backend:
           service:
-            name: deviceshifu-akri-rtsp-139c61
+            name: deviceshifu-akri-rtsp-2ddc95
             port:
               number: 80
       - path: /plc(/|$)(.*)
