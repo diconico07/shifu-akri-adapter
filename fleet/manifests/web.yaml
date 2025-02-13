@@ -20,7 +20,7 @@ spec:
         - containerPort: 80
         env:
           - name: BASE_URL
-            value: "http://192.168.1.130"
+            value: "https://edge-connect-test.heptaoctet.net"
 ---
 apiVersion: v1
 kind: Service
