@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: sample-web
-        image: tomqin93/sample-shifu-web:nightly
+        image: edgenesis/sample-shifu-web:v0.0.1
         ports:
         - containerPort: 80
         env:
